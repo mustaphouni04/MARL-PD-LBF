@@ -7,10 +7,10 @@ This repository provides an implementation of two popular reinforcement learning
 Here are some sample demonstrations of the agents learning in the Level-Based Foraging environment (non-cooperative version):
 
 ### IQL Demo
-![IQL Demo](videos/IQL_demov2.gif)
+![IQL Demo](videos/IQL_demo.gif)
 
 ### CQL Demo
-![CQL Demo](videos/CQL_demov2.gif)
+![CQL Demo](videos/CQL_demo.gif)
 
 ## Description
 
