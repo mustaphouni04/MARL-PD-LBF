@@ -1,3 +1,10 @@
+"""
+This module implements the Centralized Q-Learning (CQL) algorithm.
+
+CQL is a multi-agent reinforcement learning algorithm where a single Q-table
+is maintained for the joint actions of all agents. This allows the agents
+to learn a coordinated policy.
+"""
 from collections import defaultdict
 import random
 from typing import List, DefaultDict
@@ -55,8 +62,6 @@ class CQL:
         """
         Implement the epsilon-greedy action selection here for stateless task
 
-        **IMPLEMENT THIS FUNCTION**
-
         :param obss (List): List of observations for each agent
         :return (List[int]): index of selected action for each agent
         """
@@ -95,8 +100,6 @@ class CQL:
     ):
         """
         Updates the Q-tables based on agents' experience
-
-        **IMPLEMENT THIS FUNCTION**
 
         :param obss (List[np.ndarray]): list of observations for each agent
         :param action (List[int]): index of applied action of each agent

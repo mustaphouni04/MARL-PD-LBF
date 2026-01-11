@@ -2,6 +2,16 @@
 
 This repository provides an implementation of two popular reinforcement learning algorithms, **Conservative Q-Learning (CQL)** and **Independent Q-Learning (IQL)**, applied to two distinct multi-agent environments: the classic **Prisoner's Dilemma (PD)** matrix game and the more complex **Level-Based Foraging (LBF)** environment.
 
+## Sample Demonstrations
+
+Here are some sample demonstrations of the agents learning in the Level-Based Foraging environment (non-cooperative version):
+
+### IQL Demo
+![IQL Demo](videos/IQL_demo.gif)
+
+### CQL Demo
+![CQL Demo](videos/CQL_demo.gif)
+
 ## Description
 
 This project serves as a practical demonstration of how CQL and IQL can be used to train agents in both cooperative and competitive scenarios.

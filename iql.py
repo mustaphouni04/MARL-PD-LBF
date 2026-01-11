@@ -1,3 +1,10 @@
+"""
+This module implements the Independent Q-Learning (IQL) algorithm.
+
+IQL is a multi-agent reinforcement learning algorithm where each agent
+independently learns its own Q-table, treating other agents as part of the
+environment.
+"""
 from collections import defaultdict
 import random
 from typing import List, DefaultDict
@@ -53,8 +60,6 @@ class IQL:
         """
         Implement the epsilon-greedy action selection here for stateless task
 
-        **IMPLEMENT THIS FUNCTION**
-
         :param obss (List): list of observations for each agent
         :return (List[int]): index of selected action for each agent
         """
@@ -93,8 +98,6 @@ class IQL:
     ):
         """
         Updates the Q-tables based on agents' experience
-
-        **IMPLEMENT THIS FUNCTION**
 
         :param obss (List[np.ndarray]): list of observations for each agent
         :param action (List[int]): index of applied action of each agent
