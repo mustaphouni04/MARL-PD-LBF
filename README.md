@@ -1,6 +1,6 @@
 # CQL and IQL on Prisoner's Dilemma and Level-Based Foraging
 
-This repository provides an implementation of two popular reinforcement learning algorithms, **Conservative Q-Learning (CQL)** and **Independent Q-Learning (IQL)**, applied to two distinct multi-agent environments: the classic **Prisoner's Dilemma (PD)** matrix game and the more complex **Level-Based Foraging (LBF)** environment.
+This repository provides an implementation of two popular reinforcement learning algorithms, **Centralised Q-Learning (CQL)** and **Independent Q-Learning (IQL)**, applied to two distinct multi-agent environments: the classic **Prisoner's Dilemma (PD)** matrix game and the more complex **Level-Based Foraging (LBF)** environment.
 
 ## Sample Demonstrations
 
